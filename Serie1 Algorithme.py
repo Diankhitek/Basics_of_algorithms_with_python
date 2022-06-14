@@ -1,5 +1,5 @@
 #Exo 5.1
-"""
+
 print("Exercice 5.1") 
 print ("veuillez saisir un nombre compris entre 1 et 3")
 x=int(input())
@@ -8,9 +8,8 @@ while(x<1 or x>3):
     x= int(input())
 print("le nombre saisit est :",x)
 
-"""
 #Exo 2
-"""
+
 print("Exercice 5.2") 
 print ("veuillez saisir un nombre compris entre 10 et 20")
 x=int(input())
@@ -23,9 +22,9 @@ while(x<10 or x>20):
     x= int(input())
 print("le nombre saisit est :",x)
 
-"""
+
 #Exo 3
-"""
+
 print("Exercice 5.3") 
 print ("veuillez saisir un nombre")
 x=int(input())
@@ -34,20 +33,20 @@ while(x<=y):
     x+=1
     print(x)
 
-"""
+
 
 #Exo 4
-'''
+
 print("Exercice 5.4")
 print ("veuillez saisir un nombre")
 x=int(input())
 for i in range(x+1,x+11):
     print(i)
     
-'''
+
 
 #Exo 5
-'''
+
 print("Exercice 5.5")
 print("Ecrire un nombre")
 x=int(input())
@@ -55,10 +54,10 @@ print("Table de multiplication par ",x)
 for i in range (0,11):
     print(x," x ",i," = ",x*i)
     
-'''
+
 
 #Exo 6
-'''
+
 print("Exercice 5.6")
 print("Ecrire un nombre")
 x = int(input())
@@ -66,9 +65,9 @@ som=0
 for i in range (1,x+1):
     som+=i
 print("la somme des entiers est : ",som)
-'''
+
 #exo 7
-''''
+
 print("Exercice 5.7")
 print("Ecrire un nombre")
 x = int(input())
@@ -77,7 +76,7 @@ for i in range (1,x+1):
     fact*=i
 print(x,"! = ",fact)
 
-'''
+
 
 #exo 8
 '''
